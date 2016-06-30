@@ -1,4 +1,4 @@
-package com.poec;
+//package com.poec;
 
 import java.util.Calendar;
 
@@ -11,6 +11,8 @@ public class Etudiant {
     private String adresse;
 
     private int annee;
+
+    public Etudiant(){}
 
     public Etudiant(String nom, String prenom, String adresse) {
         this.nom = nom;

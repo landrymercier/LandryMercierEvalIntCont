@@ -1,4 +1,4 @@
-package com.poec;
+//package com.poec;
 
 public class Main {
 
@@ -8,5 +8,6 @@ public class Main {
         System.out.println("Nom : " + etudiant1.getNom());
         System.out.println("Prénom : " + etudiant1.getPrenom());
         System.out.println("Adresse : " + etudiant1.getAdresse());
+        System.out.println("Age : " + etudiant1.getAge());
     }
 }
