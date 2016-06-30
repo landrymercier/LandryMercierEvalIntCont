@@ -44,13 +44,9 @@ public class Etudiant {
     }
 
     public int getAge(){
-        int age = 0;
-
-        Calendar calendrier;
-        calendrier = Calendar.getInstance();
+        Calendar calendrier = Calendar.getInstance();
         int anneeEnCours = calendrier.get(Calendar.YEAR);
-        age=anneeEnCours-annee;
-
+        int age = anneeEnCours-annee;
         return age;
     }
 }
