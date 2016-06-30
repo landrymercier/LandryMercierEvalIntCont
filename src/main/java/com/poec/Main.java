@@ -1,4 +1,4 @@
-//package com.poec;
+package com.poec;
 
 public class Main {
 
